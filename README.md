@@ -4,7 +4,7 @@ A subscribable calendar feed for Fantasy Premier League gameweek deadlines. Each
 
 ## Overview
 
-Subscribe at **[serdarseseogullari.github.io/fpl-reminder](https://serdarseseogullari.github.io/fpl-reminder)** to add the feed to Google Calendar or Apple Calendar. Events update automatically — no manual re-importing needed.
+[Subscribe via GitHub Pages](https://serdarseseogullari.github.io/fpl-reminder) to add the feed to Google Calendar or Apple Calendar. Events update automatically — no manual re-importing needed.
 
 ## How it works
 
