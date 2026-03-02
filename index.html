@@ -163,8 +163,8 @@
 
     <div class="buttons">
 
-      <!-- Google Calendar -->
-      <button class="btn btn-google" onclick="toggleGoogle()">
+      <!-- Google Calendar: webcal:// on mobile, copy-URL flow on desktop -->
+      <a class="btn btn-google" id="googleBtn" href="webcal://serdarseseogullari.github.io/fpl-reminder/calendar.ics">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="24" height="24" rx="4" fill="white"/>
           <path d="M7 10h10M7 14h6" stroke="#4285F4" stroke-width="1.5" stroke-linecap="round"/>
@@ -172,7 +172,7 @@
           <text x="12" y="19" text-anchor="middle" fill="#4285F4" font-size="6" font-weight="bold" font-family="sans-serif">31</text>
         </svg>
         Add to Google Calendar
-      </button>
+      </a>
 
       <div class="google-steps" id="googleSteps">
         <ol>
@@ -206,14 +206,21 @@
   </div>
 
   <script>
-    function toggleGoogle() {
-      document.getElementById('googleSteps').classList.toggle('open');
+    const ICS_URL = 'https://serdarseseogullari.github.io/fpl-reminder/calendar.ics';
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // On desktop: Google button shows copy-URL panel instead of webcal://
+    if (!isMobile) {
+      const googleBtn = document.getElementById('googleBtn');
+      googleBtn.removeAttribute('href');
+      googleBtn.addEventListener('click', function () {
+        document.getElementById('googleSteps').classList.toggle('open');
+      });
     }
 
     function copyUrl() {
-      const url = document.getElementById('icsUrl').textContent;
       const btn = document.getElementById('copyBtn');
-      navigator.clipboard.writeText(url).then(() => {
+      navigator.clipboard.writeText(ICS_URL).then(() => {
         btn.textContent = 'Copied!';
         btn.classList.add('copied');
         setTimeout(() => {
