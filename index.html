@@ -186,8 +186,8 @@
         </div>
       </div>
 
-      <!-- Apple Calendar: webcal:// opens Calendar.app directly -->
-      <a class="btn btn-apple" href="webcal://serdarseseogullari.github.io/fpl-reminder/calendar.ics">
+      <!-- Apple Calendar: webcal:// opens Calendar.app on iOS/macOS, hidden on Android -->
+      <a class="btn btn-apple" id="appleBtn" href="webcal://serdarseseogullari.github.io/fpl-reminder/calendar.ics">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="2" y="4" width="20" height="18" rx="3" fill="white"/>
           <rect x="2" y="4" width="20" height="6" rx="3" fill="#FF3B30"/>
@@ -206,6 +206,12 @@
 
   <script>
     const ICS_URL = 'https://serdarseseogullari.github.io/fpl-reminder/calendar.ics';
+    const isAndroid = /Android/i.test(navigator.userAgent);
+
+    // Apple Calendar doesn't exist on Android — hide the button
+    if (isAndroid) {
+      document.getElementById('appleBtn').style.display = 'none';
+    }
 
     function toggleGoogle() {
       document.getElementById('googleSteps').classList.toggle('open');
