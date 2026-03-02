@@ -148,6 +148,16 @@
     .copy-btn:hover { opacity: 0.85; }
     .copy-btn.copied { background: #34a853; }
 
+    .mobile-hint {
+      display: none;
+      margin-bottom: 0.75rem;
+      font-size: 0.78rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    .mobile-hint.visible { display: block; }
+
     .note {
       margin-top: 1.75rem;
       font-size: 0.78rem;
@@ -180,6 +190,7 @@
           <li>Open <a href="https://calendar.google.com/calendar/r/settings/addbyurl" target="_blank" rel="noopener">Google Calendar → Settings → From URL</a></li>
           <li>Paste and click <strong>Add calendar</strong></li>
         </ol>
+        <p class="mobile-hint" id="mobileHint">On mobile, long-press the link above and tap <strong>Open in browser</strong> — otherwise the Calendar app may intercept it.</p>
         <div class="url-copy">
           <code id="icsUrl">https://serdarseseogullari.github.io/fpl-reminder/calendar.ics</code>
           <button class="copy-btn" id="copyBtn" onclick="copyUrl()">Copy</button>
@@ -207,10 +218,16 @@
   <script>
     const ICS_URL = 'https://serdarseseogullari.github.io/fpl-reminder/calendar.ics';
     const isAndroid = /Android/i.test(navigator.userAgent);
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     // Apple Calendar doesn't exist on Android — hide the button
     if (isAndroid) {
       document.getElementById('appleBtn').style.display = 'none';
+    }
+
+    // Show long-press hint on mobile only
+    if (isMobile) {
+      document.getElementById('mobileHint').classList.add('visible');
     }
 
     function toggleGoogle() {
