@@ -1,0 +1,41 @@
+name: Update FPL Calendar
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate calendar
+        run: python generate.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add calendar.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update FPL deadline calendar"
+            git push
+          fi

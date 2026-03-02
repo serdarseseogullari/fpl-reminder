@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FPL Deadline Reminders</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f4f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    .badge {
+      display: inline-block;
+      background: #37003c;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: #666;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      padding: 0.85rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.1s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-google {
+      background: #4285F4;
+      color: #fff;
+    }
+
+    .btn-apple {
+      background: #1a1a2e;
+      color: #fff;
+    }
+
+    .btn svg {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+    }
+
+    .note {
+      margin-top: 1.75rem;
+      font-size: 0.78rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Fantasy Premier League</span>
+    <h1>Deadline Reminders</h1>
+    <p>Subscribe to get a calendar event 1 hour before every FPL gameweek deadline. Works with Google and Apple Calendar.</p>
+
+    <div class="buttons">
+      <!-- Google Calendar: add by URL -->
+      <a
+        class="btn btn-google"
+        href="https://calendar.google.com/calendar/r/settings/addbyurl?url=https%3A%2F%2Fserdarseseogullari.github.io%2Ffpl-reminder%2Fcalendar.ics"
+        target="_blank"
+        rel="noopener"
+      >
+        <!-- Google Calendar icon -->
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" rx="4" fill="white"/>
+          <path d="M16.5 3h-9A4.5 4.5 0 003 7.5v9A4.5 4.5 0 007.5 21h9a4.5 4.5 0 004.5-4.5v-9A4.5 4.5 0 0016.5 3z" fill="white"/>
+          <path d="M7 10h10M7 14h6" stroke="#4285F4" stroke-width="1.5" stroke-linecap="round"/>
+          <rect x="3" y="3" width="18" height="5" rx="2" fill="#4285F4"/>
+          <text x="12" y="19" text-anchor="middle" fill="#4285F4" font-size="6" font-weight="bold" font-family="sans-serif">31</text>
+        </svg>
+        Add to Google Calendar
+      </a>
+
+      <!-- Apple Calendar: webcal:// -->
+      <a
+        class="btn btn-apple"
+        href="webcal://serdarseseogullari.github.io/fpl-reminder/calendar.ics"
+      >
+        <!-- Apple Calendar icon -->
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="20" height="18" rx="3" fill="white"/>
+          <rect x="2" y="4" width="20" height="6" rx="3" fill="#FF3B30"/>
+          <rect x="2" y="7" width="20" height="3" fill="#FF3B30"/>
+          <text x="12" y="19" text-anchor="middle" fill="#1a1a2e" font-size="7" font-weight="bold" font-family="sans-serif">17</text>
+          <line x1="7" y1="2" x2="7" y2="6" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="17" y1="2" x2="17" y2="6" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        Add to Apple Calendar
+      </a>
+    </div>
+
+    <p class="note">Updates daily. All 38 gameweek deadlines included.</p>
+  </div>
+</body>
+</html>
