@@ -59,8 +59,8 @@ def build_calendar(fpl_events):
         event.add("dtstamp", datetime.now(tz=LONDON_TZ))
         event.add(
             "description",
-            f"FPL {gw_name} transfer deadline is at {deadline_london.strftime('%H:%M %Z')}. "
-            f"Make your transfers now!"
+            f"FPL {gw_name} transfer deadline is in 1 hour. Make your transfers now!\n"
+            f"https://fantasy.premierleague.com/"
         )
         event.add("url", "https://fantasy.premierleague.com/")
 
