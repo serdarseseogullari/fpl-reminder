@@ -11,7 +11,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 1 Deadline
 DTSTART;TZID=Europe/London:20250815T173000
 DTEND;TZID=Europe/London:20250815T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw1-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 1 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 2 Deadline
 DTSTART;TZID=Europe/London:20250822T173000
 DTEND;TZID=Europe/London:20250822T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw2-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 2 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 3 Deadline
 DTSTART;TZID=Europe/London:20250830T100000
 DTEND;TZID=Europe/London:20250830T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw3-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 3 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 4 Deadline
 DTSTART;TZID=Europe/London:20250913T100000
 DTEND;TZID=Europe/London:20250913T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw4-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 4 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 5 Deadline
 DTSTART;TZID=Europe/London:20250920T100000
 DTEND;TZID=Europe/London:20250920T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw5-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 5 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 6 Deadline
 DTSTART;TZID=Europe/London:20250927T100000
 DTEND;TZID=Europe/London:20250927T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw6-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 6 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -101,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 7 Deadline
 DTSTART;TZID=Europe/London:20251003T173000
 DTEND;TZID=Europe/London:20251003T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw7-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 7 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 8 Deadline
 DTSTART;TZID=Europe/London:20251018T100000
 DTEND;TZID=Europe/London:20251018T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw8-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 8 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -131,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 9 Deadline
 DTSTART;TZID=Europe/London:20251024T173000
 DTEND;TZID=Europe/London:20251024T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw9-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 9 transfer deadline is in 1 hour. Make your trans
  fers now!\nhttps://fantasy.premierleague.com/
@@ -146,7 +146,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 10 Deadline
 DTSTART;TZID=Europe/London:20251101T123000
 DTEND;TZID=Europe/London:20251101T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw10-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 10 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -161,7 +161,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 11 Deadline
 DTSTART;TZID=Europe/London:20251108T100000
 DTEND;TZID=Europe/London:20251108T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw11-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 11 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -176,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 12 Deadline
 DTSTART;TZID=Europe/London:20251122T100000
 DTEND;TZID=Europe/London:20251122T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw12-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 12 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -191,7 +191,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 13 Deadline
 DTSTART;TZID=Europe/London:20251129T123000
 DTEND;TZID=Europe/London:20251129T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw13-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 13 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 14 Deadline
 DTSTART;TZID=Europe/London:20251202T170000
 DTEND;TZID=Europe/London:20251202T173000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw14-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 14 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -221,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 15 Deadline
 DTSTART;TZID=Europe/London:20251206T100000
 DTEND;TZID=Europe/London:20251206T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw15-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 15 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -236,7 +236,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 16 Deadline
 DTSTART;TZID=Europe/London:20251213T123000
 DTEND;TZID=Europe/London:20251213T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw16-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 16 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 17 Deadline
 DTSTART;TZID=Europe/London:20251220T100000
 DTEND;TZID=Europe/London:20251220T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw17-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 17 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -266,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 18 Deadline
 DTSTART;TZID=Europe/London:20251226T173000
 DTEND;TZID=Europe/London:20251226T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw18-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 18 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -281,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 19 Deadline
 DTSTART;TZID=Europe/London:20251230T170000
 DTEND;TZID=Europe/London:20251230T173000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw19-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 19 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -296,7 +296,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 20 Deadline
 DTSTART;TZID=Europe/London:20260103T100000
 DTEND;TZID=Europe/London:20260103T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw20-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 20 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -311,7 +311,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 21 Deadline
 DTSTART;TZID=Europe/London:20260106T173000
 DTEND;TZID=Europe/London:20260106T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw21-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 21 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -326,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 22 Deadline
 DTSTART;TZID=Europe/London:20260117T100000
 DTEND;TZID=Europe/London:20260117T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw22-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 22 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -341,7 +341,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 23 Deadline
 DTSTART;TZID=Europe/London:20260124T100000
 DTEND;TZID=Europe/London:20260124T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw23-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 23 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -356,7 +356,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 24 Deadline
 DTSTART;TZID=Europe/London:20260131T123000
 DTEND;TZID=Europe/London:20260131T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw24-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 24 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -371,7 +371,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 25 Deadline
 DTSTART;TZID=Europe/London:20260206T173000
 DTEND;TZID=Europe/London:20260206T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw25-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 25 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -386,7 +386,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 26 Deadline
 DTSTART;TZID=Europe/London:20260210T170000
 DTEND;TZID=Europe/London:20260210T173000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw26-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 26 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -401,7 +401,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 27 Deadline
 DTSTART;TZID=Europe/London:20260221T123000
 DTEND;TZID=Europe/London:20260221T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw27-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 27 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -416,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 28 Deadline
 DTSTART;TZID=Europe/London:20260227T173000
 DTEND;TZID=Europe/London:20260227T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw28-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 28 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -431,7 +431,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 29 Deadline
 DTSTART;TZID=Europe/London:20260303T170000
 DTEND;TZID=Europe/London:20260303T173000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw29-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 29 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -446,7 +446,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 30 Deadline
 DTSTART;TZID=Europe/London:20260314T123000
 DTEND;TZID=Europe/London:20260314T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw30-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 30 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -461,7 +461,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 31 Deadline
 DTSTART;TZID=Europe/London:20260320T173000
 DTEND;TZID=Europe/London:20260320T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw31-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 31 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -476,7 +476,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 32 Deadline
 DTSTART;TZID=Europe/London:20260410T173000
 DTEND;TZID=Europe/London:20260410T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw32-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 32 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -491,7 +491,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 33 Deadline
 DTSTART;TZID=Europe/London:20260418T100000
 DTEND;TZID=Europe/London:20260418T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw33-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 33 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -506,7 +506,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 34 Deadline
 DTSTART;TZID=Europe/London:20260424T173000
 DTEND;TZID=Europe/London:20260424T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw34-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 34 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -521,7 +521,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 35 Deadline
 DTSTART;TZID=Europe/London:20260501T173000
 DTEND;TZID=Europe/London:20260501T180000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw35-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 35 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -536,7 +536,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 36 Deadline
 DTSTART;TZID=Europe/London:20260509T100000
 DTEND;TZID=Europe/London:20260509T103000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw36-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 36 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -551,7 +551,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 37 Deadline
 DTSTART;TZID=Europe/London:20260517T123000
 DTEND;TZID=Europe/London:20260517T130000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw37-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 37 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
@@ -566,7 +566,7 @@ BEGIN:VEVENT
 SUMMARY:FPL Gameweek 38 Deadline
 DTSTART;TZID=Europe/London:20260524T133000
 DTEND;TZID=Europe/London:20260524T140000
-DTSTAMP:20260406T014909Z
+DTSTAMP:20260406T071956Z
 UID:fpl-gw38-deadline@fpl-calendar
 DESCRIPTION:FPL Gameweek 38 transfer deadline is in 1 hour. Make your tran
  sfers now!\nhttps://fantasy.premierleague.com/
