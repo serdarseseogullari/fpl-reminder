@@ -35,6 +35,10 @@ def build_calendar(fpl_events):
     cal.add("x-wr-calname", "FPL Deadlines")
     cal.add("x-wr-timezone", "Europe/London")
     cal.add("x-wr-caldesc", "Fantasy Premier League gameweek deadlines (1 hour early reminder)")
+    cal.add("x-published-ttl", "PT6H")
+    refresh = vDuration(timedelta(hours=6))
+    refresh.params["VALUE"] = "DURATION"
+    cal.add("refresh-interval", refresh)
 
     for fpl_event in fpl_events:
         gw_id = fpl_event["id"]
